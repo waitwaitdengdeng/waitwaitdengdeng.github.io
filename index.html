@@ -2,53 +2,173 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Li Zixiu</title>
+<title>Li Zixiu | Academic Homepage</title>
+
 
 <style>
 
 body {
-    font-family: Arial, sans-serif;
+
+    font-family: 
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
     max-width: 900px;
+
     margin: auto;
+
     padding: 40px;
+
     line-height: 1.7;
+
     color: #333;
+
+    background: #ffffff;
+
 }
 
-h1 {
-    font-size: 40px;
-    margin-bottom: 5px;
-}
-
-h2 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-    margin-top: 35px;
-}
-
-a {
-    color: #0366d6;
-    text-decoration: none;
-}
 
 .profile {
+
     display: flex;
-    gap: 30px;
+
     align-items: center;
+
+    gap: 35px;
+
+    margin-bottom: 30px;
+
 }
 
+
 .avatar {
-    width: 140px;
-    height: 140px;
+
+    width: 150px;
+
+    height: 150px;
+
     border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 2px solid #ddd;
+
 }
+
+
+
+h1 {
+
+    font-size: 42px;
+
+    margin: 0;
+
+    color:#111;
+
+}
+
+
+.subtitle {
+
+    font-size:20px;
+
+    color:#555;
+
+}
+
+
+
+h2 {
+
+    margin-top:40px;
+
+    padding-bottom:8px;
+
+    border-bottom:1px solid #ddd;
+
+    color:#222;
+
+}
+
+
+
+a {
+
+    color:#0366d6;
+
+    text-decoration:none;
+
+}
+
+
+a:hover {
+
+    text-decoration:underline;
+
+}
+
+
+
+ul {
+
+    padding-left:25px;
+
+}
+
+
+
+.card {
+
+    background:#f7f7f7;
+
+    padding:15px 20px;
+
+    border-radius:10px;
+
+    margin:10px 0;
+
+}
+
+
+
+.footer {
+
+    margin-top:50px;
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+
+
+@media(max-width:600px){
+
+.profile{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+}
+
+}
+
+
 
 </style>
 
+
 </head>
+
 
 
 <body>
@@ -56,102 +176,327 @@ a {
 
 <div class="profile">
 
+
+<!--
+以后可以把头像上传到仓库，
+然后替换 src="avatar.jpg"
+-->
+
+<img class="avatar"
+src="https://via.placeholder.com/150"
+alt="Avatar">
+
+
 <div>
+
 
 <h1>Li Zixiu</h1>
 
-<p>
+
+<p class="subtitle">
+
 Undergraduate Student<br>
+
 Soochow University
+
 </p>
+
 
 <p>
 📍 Suzhou, China
 </p>
 
+
 <p>
+
 Email:
+
+<a href="mailto:2427405105@stu.suda.edu.cn">
+
 2427405105@stu.suda.edu.cn
+
+</a>
+
 </p>
 
+
+
 <p>
+
 <a href="https://github.com/waitwaitdengdeng">
+
 GitHub
+
 </a>
-</p>
 
-</div>
-
-</div>
+&nbsp; | &nbsp;
 
 
+<a href="#">
 
-<h2>About Me</h2>
-
-<p>
-I am an undergraduate student at Soochow University.
-My interests include artificial intelligence, machine learning,
-and data analysis.
-</p>
-
-
-
-<h2>Research Interests</h2>
-
-<ul>
-<li>Artificial Intelligence</li>
-<li>Machine Learning</li>
-<li>Data Analysis</li>
-</ul>
-
-
-
-<h2>Education</h2>
-
-<p>
-<strong>Soochow University</strong><br>
-Undergraduate Student<br>
-2024 - Present
-</p>
-
-
-
-<h2>Projects</h2>
-
-<ul>
-<li>
-Coming soon...
-</li>
-</ul>
-
-
-
-<h2>Publications</h2>
-
-<p>
-No publications yet.
-</p>
-
-
-
-<h2>Links</h2>
-
-<ul>
-<li>
-<a href="https://scholar.google.com">
 Google Scholar
-</a>
-</li>
 
-<li>
-<a href="https://orcid.org">
-ORCID
 </a>
-</li>
+
+
+&nbsp; | &nbsp;
+
+
+<a href="#">
+
+ORCID
+
+</a>
+
+
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<h2>
+About Me
+</h2>
+
+
+<p>
+
+I am an undergraduate student at 
+<strong>Soochow University</strong>.
+
+My research interests include artificial intelligence,
+machine learning, and data-driven methods.
+
+I am interested in exploring computational approaches
+to solve real-world problems.
+
+</p>
+
+
+
+
+
+<h2>
+Research Interests
+</h2>
+
+
+<ul>
+
+<li>Artificial Intelligence</li>
+
+<li>Machine Learning</li>
+
+<li>Data Analysis</li>
+
+<li>Computer Science</li>
 
 </ul>
+
+
+
+
+
+<h2>
+Education
+</h2>
+
+
+<div class="card">
+
+<strong>
+Soochow University
+</strong>
+
+<br>
+
+Undergraduate Student
+
+<br>
+
+2024 - Present
+
+</div>
+
+
+
+
+
+
+
+<h2>
+Research Experience
+</h2>
+
+
+<div class="card">
+
+
+<strong>
+Undergraduate Research
+</strong>
+
+<br>
+
+
+Exploring machine learning and artificial intelligence methods.
+
+<br>
+
+
+Soochow University
+
+</div>
+
+
+
+
+
+
+
+<h2>
+Projects
+</h2>
+
+
+<ul>
+
+
+<li>
+
+Coming soon...
+
+</li>
+
+
+</ul>
+
+
+
+
+
+
+
+<h2>
+Publications
+</h2>
+
+
+<p>
+
+No publications yet.
+
+</p>
+
+
+
+
+
+
+
+<h2>
+Skills
+</h2>
+
+
+<ul>
+
+
+<li>
+Python
+</li>
+
+
+<li>
+Machine Learning
+</li>
+
+
+<li>
+Data Analysis
+</li>
+
+
+<li>
+Scientific Computing
+</li>
+
+
+</ul>
+
+
+
+
+
+
+
+<h2>
+Links
+</h2>
+
+
+<ul>
+
+
+<li>
+
+<a href="https://github.com/waitwaitdengdeng">
+
+GitHub Profile
+
+</a>
+
+</li>
+
+
+<li>
+
+<a href="#">
+
+Google Scholar
+
+</a>
+
+</li>
+
+
+<li>
+
+<a href="#">
+
+ORCID
+
+</a>
+
+</li>
+
+
+</ul>
+
+
+
+
+
+
+
+<div class="footer">
+
+© 2026 Li Zixiu
+
+</div>
+
+
 
 
 </body>
+
 
 </html>
